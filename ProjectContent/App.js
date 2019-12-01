@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import { View } from 'react-native';
 import { Text, TextInput, Button, StyleSheet} from 'react-native';
 
-export default class FlexDirectionBasics extends Component {
+export default class App extends Component {
   _onPressButton1() {
-    alert('Good Morning!')
+    const test1 = 'Good Morning'
+    return test1
   }
   _onPressButton2() {
     alert('Good Afternoon!')
   }
   _onPressButton3() {
-    alert('Good Evening!')
+    const test3 = 'Good Evening'
+    alert(test3)
   }
   constructor(props) {
     super(props);
